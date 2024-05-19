@@ -17,7 +17,7 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-익숙하지-않은-�
 ## 기능
 - 페이징 기능 -> ajax 로 더 보기 기능
 
-<img src="./img/postList.png">
+<img src="img/postmore.png">
 
 
 
