@@ -25,12 +25,17 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-
 
 <img src="img/postList.png">
 
+
+<br><br>
+
 - 글 등록 -> ajax post 요청
 
 <img src="img/postform.png">
 
 
 <img src="img/posttest.png">
+
+<br><br>
 
 - 글 수정 -> ajax put 요청
 
@@ -39,6 +44,8 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-
 <img src="img/editform.png">
 
 <img src="img/edit.png">
+
+<br><br>
 
 - 글 삭제 -> ajax delete 요청
 
