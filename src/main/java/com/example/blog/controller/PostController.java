@@ -1,12 +1,11 @@
 package com.example.blog.controller;
 
+import com.example.blog.controller.dto.PostRequestDto;
 import com.example.blog.controller.dto.PostResponseDto;
 import com.example.blog.service.PostService;
 import com.example.blog.vo.Post;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +29,12 @@ public class PostController {
             postResponseDtoList.add(new PostResponseDto(post));
         }
         return postResponseDtoList;
+    }
+
+    @PostMapping("/post")
+    public String createPost(@RequestBody PostRequestDto postDto) {
+        Post post = postDto.getPost();
+        postService.savePost(post);
+        return "success";
     }
 }

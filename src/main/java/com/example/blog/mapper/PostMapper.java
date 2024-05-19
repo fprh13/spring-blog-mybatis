@@ -11,4 +11,5 @@ public interface PostMapper {
     List<Post> findAll();
     List<Post> findByPage(@Param("limit") Integer limit ,@Param("offset") Integer offset);
     Post findOne(@Param("id") Integer id);
+    Integer save(@Param("post") Post post);
 }
