@@ -66,6 +66,23 @@ $(function(){
             });
         });
 
+    $("#delete_button").click(function(){
+                var id = $("#delete-post-id").val();
+
+                $.ajax({
+                    method: "DELETE",
+                    url: "/post",
+                    data: JSON.stringify({
+                        "id":id,
+                    }),
+                    contentType: "application/json"
+                })
+                .done(function(response) {
+                    console.log("Delete creation success!");
+                    window.location.href = "/";
+                });
+            });
+
     $(".comment-edit").hide();
 
     $(".comment-edit-form-button").click(function(){

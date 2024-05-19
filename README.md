@@ -15,6 +15,12 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-
 <br>
 
 ## 기능
+- Read -> 글 페이징 
+- Create -> 글 작성
+- Update -> 글 수정
+- Delete -> 글 삭제
+
+## demo
 - 페이징 기능 -> ajax 로 더 보기 기능
 
 <img src="img/postList.png">
@@ -34,6 +40,11 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-
 
 <img src="img/edit.png">
 
+- 글 삭제 -> ajax delete 요청
+
+<img src="img/deletetest.png">
+
+<img src="img/delete.png">
 
 
 

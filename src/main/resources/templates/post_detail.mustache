@@ -20,7 +20,8 @@
                 <p>{{post.content}}</p>
                 <div class="edit_btns">
                     <button><a href="/post/edit/{{id}}">수정</a></button>
-                    <button>삭제</button>
+                    <input type="hidden" id="delete-post-id" value="{{post.id}}" />
+                    <button id="delete_button">삭제</button>
                 </div>
             </div>
 

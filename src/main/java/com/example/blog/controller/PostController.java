@@ -44,4 +44,11 @@ public class PostController {
         postService.updatePost(post);
         return "success";
     }
+
+    @DeleteMapping("/post")
+    public String deletePost(@RequestBody PostRequestDto postDto) {
+        Post post = postDto.getPost();
+        postService.deletePost(post);
+        return "success";
+    }
 }

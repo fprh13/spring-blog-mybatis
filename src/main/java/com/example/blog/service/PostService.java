@@ -35,4 +35,8 @@ public class PostService {
         Integer result = postMapper.update(post);
         return result == 1;
     }
+
+    public void deletePost(Post post) {
+        postMapper.delete(post);
+    }
 }
