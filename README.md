@@ -1,5 +1,5 @@
 ## Blog
-https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-익숙하지-않은-기술에-경험을-쌓자
+https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-기술에-경험을-쌓자
 
 ## 목표 🏆
 
