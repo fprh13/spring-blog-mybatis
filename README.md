@@ -23,9 +23,16 @@ https://velog.io/@fprh13/Spring-boot-MyBatis-사용하기-2-익숙하지-않은-
 
 <img src="img/postform.png">
 
-<br>
 
 <img src="img/posttest.png">
+
+- 글 수정 -> ajax put 요청
+
+<img src="img/edittest.png">
+
+<img src="img/editform.png">
+
+<img src="img/edit.png">
 
 
 

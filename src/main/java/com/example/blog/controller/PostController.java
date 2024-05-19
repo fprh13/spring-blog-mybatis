@@ -37,4 +37,11 @@ public class PostController {
         postService.savePost(post);
         return "success";
     }
+
+    @PutMapping("/post")
+    public String updatePost(@RequestBody PostRequestDto postDto) {
+        Post post = postDto.getPost();
+        postService.updatePost(post);
+        return "success";
+    }
 }
